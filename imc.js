@@ -19,10 +19,6 @@ function calcular() {
     const peso = document.querySelector('#peso').value
     const altura = document.querySelector('#altura').value * 0.01
     const imc = peso / (altura * altura)
-    console.log(altura)
-    console.log(peso)
-    console.log(imc)
-
 
     if (peso == '' || altura == '') {
         window.alert('[ERRO] Insira todos os dados corretamente.')
