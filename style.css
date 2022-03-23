@@ -27,6 +27,10 @@
     background: linear-gradient(#EAE5C9, #6CC6CB);
 }
 
+.calculadora h2 {
+    margin-bottom: 20px;
+}
+
 .calculadora div {
     margin-bottom: 10px;
 }
@@ -44,6 +48,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.calculadora .Altura p,
+.calculadora .peso p {
+    text-align: left;
 }
 
 input {
